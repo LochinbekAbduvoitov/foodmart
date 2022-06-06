@@ -44,3 +44,36 @@
         border-radius: 50%;
     }
 }
+
+.navbar{
+    background-color: rgb(255, 255, 255);
+    padding: 3rem 2rem;
+    min-height: 12vh;
+}
+
+.navbar .navbar-brand a{
+    padding: 1rem 0;
+    display: block;
+    text-decoration: none;
+}
+
+.navbar-toggler{
+    padding: 10px 6px;
+    outline:none;
+    border: none;
+    background-color: #FECF65;
+}
+
+.navbar-toggler span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border: 1px;
+    background-color: #fff;
+}
+
+.navbar-toggler span + span  {
+    margin-top: 4px ;
+    width: 22px;
+    margin-left: 0px;
+}

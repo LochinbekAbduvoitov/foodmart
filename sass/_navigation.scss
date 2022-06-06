@@ -1,0 +1,37 @@
+.navigation-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.navigation-menu-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    li{
+        padding: 0px 12px;
+        margin: 0 5px;
+        font-size: 16px;
+        border-radius: 10px;
+        
+        &:hover{
+            background: #FECF65;
+
+        }
+        &.active{
+            background: #FECF65;
+
+        }
+    }
+}
+
+.cupon {
+    font-size: 16px;
+    i{
+        color: #FECF65;
+        font-size: 20px;
+        margin-right: 5px;
+    }
+}

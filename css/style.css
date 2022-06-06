@@ -52,4 +52,72 @@ html, body {
   border-radius: 50%;
 }
 
+.navbar {
+  background-color: rgb(255, 255, 255);
+  padding: 3rem 2rem;
+  min-height: 12vh;
+}
+
+.navbar .navbar-brand a {
+  padding: 1rem 0;
+  display: block;
+  text-decoration: none;
+}
+
+.navbar-toggler {
+  padding: 10px 6px;
+  outline: none;
+  border: none;
+  background-color: #FECF65;
+}
+
+.navbar-toggler span {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border: 1px;
+  background-color: #fff;
+}
+
+.navbar-toggler span + span {
+  margin-top: 4px;
+  width: 22px;
+  margin-left: 0px;
+}
+
+.navigation-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navigation-menu-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation-menu-bar li {
+  padding: 0px 12px;
+  margin: 0 5px;
+  font-size: 16px;
+  border-radius: 10px;
+}
+.navigation-menu-bar li:hover {
+  background: #FECF65;
+}
+.navigation-menu-bar li.active {
+  background: #FECF65;
+}
+
+.cupon {
+  font-size: 16px;
+}
+.cupon i {
+  color: #FECF65;
+  font-size: 20px;
+  margin-right: 5px;
+}
+
 /*# sourceMappingURL=style.css.map */
