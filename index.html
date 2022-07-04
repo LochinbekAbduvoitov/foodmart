@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,10 +12,13 @@
 
   <!-- FontAwesome  CSS -->
   <link rel="stylesheet" href="./css/fontawesome.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
   <!-- Style CSS -->
+  <link rel="stylesheet" href="./css/swiper.css">
   <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body class="home">
 
   <!-- Start Navbar -->
@@ -23,30 +27,34 @@
       <nav class="navbar navbar-expand-lg ">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><img class="img-fluid logo-photo" src="./images/logo.png" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
             <span></span>
             <span></span>
             <span></span>
           </button>
           <div class="collapse navbar-collapse  justify-content-between" id="navbarSupportedContent">
-            <ul class="navbar-nav m-auto mb-2 mb-lg-0">              
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
                   All categories
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="#">iteam 1</a></li>
                   <li><a class="dropdown-item" href="#">iteam 2</a></li>
                   <li><a class="dropdown-item" href="#">iteam 3</a></li>
-                 
+
                 </ul>
               </li>
               <li>
                 <form class="d-flex" role="search">
-                  <input class="form-control me-2  search-input" type="search" placeholder="Search for moer then 20,000 products" aria-label="Search">
+                  <input class="form-control me-2  search-input" type="search"
+                    placeholder="Search for moer then 20,000 products" aria-label="Search">
                   <button class="btn btn-light" type="submit"><i class="bi bi-search"></i></button>
                 </form>
-              </li>             
+              </li>
             </ul>
             <ul class="navbar-nav ml-auto">
               <li class="nav-item support-iteam">
@@ -63,24 +71,25 @@
                 <p>Your Cart</p>
                 <h6>$1290.00</h6>
               </li>
-            </ul>             
+            </ul>
           </div>
-          
-          
+
+
         </div>
-       
+
       </nav>
       <!-- NAVIGATION -->
       <div class="navigation-bar">
         <ul class="navbar-nav m-auto mb-2 mb-lg-0  navigation-menu">
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
               All categories
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="#">iteam 1</a></li>
               <li><a class="dropdown-item" href="#">iteam 2</a></li>
-              <li><a class="dropdown-item" href="#">iteam 3</a></li>             
+              <li><a class="dropdown-item" href="#">iteam 3</a></li>
             </ul>
           </li>
           <ul class="navbar-nav m-auto mb-2 mb-lg-0  navigation-menu-bar">
@@ -105,51 +114,95 @@
             <li class="nav-item">
               <a class="nav-link " aria-current="page" href="#">Offers</a>
             </li>
-    
-           </ul>
-            <li>
-              <a  class="nav-link  cupon"   href="#"><i class="bi bi-gift-fill"></i>
-                Get Your Cupon code</a>
-            </li>
-    
+
           </ul>
+          <li>
+            <a class="nav-link  cupon" href="#"><i class="bi bi-gift-fill"></i>
+              Get Your Cupon code</a>
+          </li>
+
+        </ul>
       </div>
     </div>
   </header>
   <!-- Gallery section -->
 
-  
-  <section>
-    <div class="container">
-      
+
+  <main class="main">
+    <div class="container ">
+      <div class="row mt-3">
+        <div class="col-md-6 mb-3">
+          <img class="img-fluid banner-main" src="./images/banner main.png" alt="">
+        </div>
+        <div class="col-md-6">
+          <div class="row  row-cols-xxl-1">
+            <div class="col-md mb-3">
+              <img  class="img-fluid banner-little" src="./images/banner top.png" alt="">
+            </div>
+            <div class="col-md">
+             <img  class="img-fluid  banner-little" src="./images/banner bottom.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </section>
-  <!-- End Header -->
+  </main>
+
+
   
+  <!-- End Header -->
+
+  <!-- Start Category -->
+  <div class="category mt-5  mb-5">
+    <div class="container">
+      <div class="row">
+        <div class="mySwiper">
+        <div class="col-md category-top">
+          <h3>Category</h3>
+          <div class="category-btn">
+            <p>View All Category</p>
+            <i class=" swiper-button-prev "></i>
+            <i class="  swiper-button-next"></i>
+          </div>
+        </div>
+        <div class="swiper-wrapper">
+        <div class="col-md-12 category-card ">
+          <div class="card m-2 card-category">
+            <i class="fa-solid fa-carrot fa-3x mb-3"></i>
+            <p>Fruit & Veges</p>
+          </div>
+          <div class="card m-2 card-category">
+            <i class="fa-solid fa-bread-slice fa-3x mb-3"></i>
+            <p>Bread & Sweets</p>
+          </div>
+          <div class="card m-2 card-category">
+            <i class="fa-solid fa-bottle-droplet fa-3x mb-3"></i>
+            <p>Wine Drinks</p>
+          </div>
+          <div class="card m-2 card-category">
+            <i class="fa-solid fa-bottle-droplet fa-3x mb-3"></i>
+            <p>Oil & Ghee</p>
+          </div>
+          <div class="card m-2 card-category">
+            <i class="fa-solid fa-drumstick-bite  fa-3x mb-3"></i>
+            <p>Raw Meat</p>
+          </div>
+          <div class="card m-2 card-category">
+            <i class="fa-solid fa-fire-burner fa-3x mb-3"></i>
+            <p>Natural Herbs</p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  <!-- End Category -->
+
+  <!-- Start Brands -->
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  <!-- End Brands -->
 
 
 
@@ -160,6 +213,10 @@
   <!-- Start script -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"></script>
   <script src="./js/bootstrap.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.2.6/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="./js/swiper.js"></script>
   <!-- End  script -->
 </body>
+
 </html>
